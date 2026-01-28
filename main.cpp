@@ -13,8 +13,19 @@ int main() {
     g.schnittpunktParabel(p);
 
     // Liegt der Punkt auf der Geraden?
-    if (g.liegtAufGerade(2, 7)) {
-        std::cout << "Punkt (2|7) liegt auf der Geraden." << std::endl;
+    double px = 2;
+    double py = 7;
+
+    if (g.liegtAufGerade(px, py)) {
+
+        std::cout << "Punkt (" << px << "|" << py << ") liegt auf der Geraden." << std::endl;
+
+    } 
+    else 
+    {
+
+        std::cout << "Punkt (" << px << "|" << py << ") liegt NICHT auf der Geraden." << std::endl;
+
     }
 
     return 0;

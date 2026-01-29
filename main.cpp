@@ -25,7 +25,7 @@ int main()
     else
     {
 
-        std::cout << "Punkt (" << px << "|" << py << ") liegt NICHT auf der Geraden." << std::endl;
+        std::cout << "Punkt (" << px << "|" << py << ") liegt nicht auf der Geraden." << std::endl;
     }
 
     return 0;
